@@ -12,7 +12,7 @@ int Homing_MaxSpeed = 75;
 int Homing_Acceleration = 50;
 
 int vanna1_attalums = 40;
-int vanna2_attalums = 50;       //attalums mm
+int vanna2_attalums = 50;       //attālums (mm)
 int vanna3_attalums = 30;
 int vanna4_attalums = 20;
 
@@ -20,14 +20,14 @@ int max_galda_garums = 820;      //maksimālais galda garums, kuru NEDRĪKST pā
 
 int vanna1_t = 1;
 int vanna2_t = 1; 
-int vanna3_t = 1;  //laiks sekundēs
+int vanna3_t = 1;  //apstrādes laiks (s)
 int vanna4_t = 1;
 
 int auto_array[10];
 int nospiesto_pogu_skaits = 0;
 bool vai_gajiens_paveikts = 1;
 bool manualais_cikls_darbojas = 0;
-bool rezims = 0; // rezims = 0 - manuali vai 1 - auto
+bool rezims = 0; //darba režīms (0 = rokas, 1 = auto)
 long Homing_d = -1;
 
 int poga1 = 22;
@@ -41,7 +41,7 @@ int Mode_p = 34;  // dzeltena
 int Z_IN1 = 45;
 int Z_IN2 = 47;
 int Start_LED = 3;
-int Mode_LED = 5; // Manual OFF / Auto ON
+int Mode_LED = 5; //Manual OFF / Auto ON
 int Prog_LED = 2; 
 int Stop_LED = 4;
 int Homing_pin = 9; 
